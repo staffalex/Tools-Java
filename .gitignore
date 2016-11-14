@@ -1,2 +1,6 @@
 .metadata
 .recommenders
+ScorecardAnalyse/bin
+ScorecardAnalyse/build/classes
+Tools/bin
+
