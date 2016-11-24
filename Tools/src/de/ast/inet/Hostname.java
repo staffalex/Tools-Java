@@ -13,12 +13,16 @@ public class Hostname
   {
     System.out.println("Hostname : " + InetAddress.getLocalHost().getHostName());
     System.out.println("IsLoopBackAddress : " + InetAddress.getLocalHost().isLoopbackAddress());
-    System.out.println("LoopBackAddress : " + InetAddress.getLoopbackAddress().getLocalHost());
+    
+    System.out.println("Hostname of VBox host : " + InetAddress.getByName("W81LSTAF007.asysoffice.de").getHostName());
+    System.out.println("IsLoopBackAddress (W81LSTAF007) : " + InetAddress.getByName("W81LSTAF007.asysoffice.de").isLoopbackAddress());
+    
+    System.out.println("LoopBackAddress : " + InetAddress.getLocalHost());
     System.out.println("IsLoopBackAddress : " + InetAddress.getLocalHost().isLoopbackAddress());
     
     System.out.println("GetCanonicalHostname : " + InetAddress.getLocalHost().getCanonicalHostName());
     
-    System.out.println("Get gecko-dev by hostname : " + InetAddress.getByName("gecko-dev").getHostName());
+    System.out.println("Get gecko-dev by hostname : " + InetAddress.getByName("XUbuntuV16").getHostName());
     System.out.println("GetCanonicalHostname : " + InetAddress.getLocalHost().getCanonicalHostName());
   }
 

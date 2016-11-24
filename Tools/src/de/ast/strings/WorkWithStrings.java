@@ -8,7 +8,7 @@ public class WorkWithStrings {
         
         byte[] data = hello.getBytes();
         
-        String sRequest = new String(data); //will received byte array hello
+        String sRequest = new String(data); //will receive byte array hello
         String all = sRequest;
         
         System.out.println(all);

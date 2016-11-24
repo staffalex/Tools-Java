@@ -18,6 +18,12 @@ public class RandomString
     {
       tmp.append(ch);
     }
+    
+    for (char ch = 'A'; ch <= 'Z'; ++ch)
+    {
+      tmp.append(ch);
+    }
+    
     symbols = tmp.toString().toCharArray();
   }
 
